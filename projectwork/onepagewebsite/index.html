@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>
+        one page website
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <header>
+            <a href="#"><img src="images/logo.png" alt=""></a>
+            <ul id="menu">
+                <li><a class="home" href="#home">Home</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Product">Product</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+            
+        </header>
+    <section class="a" id="home">
+
+        <h1>This is home</h1>
+    </section>
+    <section class="a" id="About"><h1>This is about us</h1></section>
+    <section class="a" id="Product"><h1>This is product </h1></section>
+    <section class="a" id="pricing"><h1>This is pricing</h1></section>
+    <section class="a" id="contact"><h1>This is contact</h1></section>
+    
+    <script>
+        $(Document).ready(function(){
+            $('.home').click(function(){
+                $('#home').addClass('bb');
+            });
+        });
+    </script>
+</body>
+</html>
